@@ -12,8 +12,9 @@ http://ieeexplore.ieee.org/document/7886813/
 
 ________________________________
 
-There are both python3 and C++ code available. The C++ code has more features and sanity checks but the opencv version is obsolete. I recommend starting with python version. Since the steps are same as c++, the documentation of c++ still applies to the python version with some minor changes.
+This repository contains code for real-time video mosaic generation. The original implementation included only stitching, but I have made significant changes to the repository by combining optical flow with stitching to improve the stitching results. I have also fine-tuned the parameters to enhance the stitching performance.
 
+Both Python3 and C++ versions of the code are available. While the C++ code offers more features and sanity checks, please note that the OpenCV version used in the C++ code is now obsolete. Therefore, I recommend starting with the Python version, as the steps remain the same as the C++ version with minor modifications.
 <b>Python3:</b>
 - opencv verion 4.4.0 (No cuda needed)
 
